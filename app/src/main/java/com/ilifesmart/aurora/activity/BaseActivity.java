@@ -33,8 +33,7 @@ public class BaseActivity extends AppCompatActivity {
     protected int getLayoutResID() {
         return R.layout.activity_settings;
     }
-
-
+    
     public void registerTouchListener(IOnTouchEvent listener) {
         if (!mTouchListeners.contains(listener)) {
             mTouchListeners.add(listener);
